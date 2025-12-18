@@ -1,0 +1,59 @@
+/* VARIABLES */
+/* Polices */
+$font-stack: Inter, sans-serif;
+$font-title: Inspiration, sans-serif;
+
+/*COLORS*/
+/*Text colors*/
+$text_color_dark_grey :#1A202C;
+$text_color_mid_grey: #4A5568;
+$text_color_purple: #57007B;
+
+/*Brand colors*/
+$brand_color_purple:#57007B;
+$brand_color_violet: #6675F7;
+$brand_color_salmon: #F7666F;
+$brand_color_pink: #F76680;
+
+
+
+/* Logo colors */
+$logo_color_dk_blue :#161490;
+$logo_color_violet :#7476ED;
+$logo_color_pink :#E56F8C;
+
+/*Logo Background Cards */
+
+
+/*Background colors*/
+$bg_color_white: #FFF;
+$bg_color_light_purple: #E7DAED;
+$bg_color_light_grey :#F7F7FA;
+$bg_color_cards :#FAFAFA;
+$bg_color_banner_gradient: linear-gradient to right (#F1F1F5,#E4ECF7);
+
+/*Background cards colors*/
+$bg_color_pink:#FFF4F4;
+$bg_color_card_green:#F0FFF7;
+$bg_color_card_blue:#F1F2FF;
+
+
+/* Gradient */
+$gradient_main:linear-gradient(to right, $brand_color_pink,$brand_color_purple);
+
+/* Buttons */
+$btn_color_purple : $brand_color_purple;
+$btn_color_blue : #3D63EA;
+
+
+
+$border_radius: 10px;
+
+
+nav {
+    border: 1px solid black;
+    font-family: $font-title;
+    font-size: 10em;
+    color: $gradient_main;
+}
+
