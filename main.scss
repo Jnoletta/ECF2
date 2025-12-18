@@ -38,8 +38,19 @@ $bg_color_card_green:#F0FFF7;
 $bg_color_card_blue:#F1F2FF;
 
 
-/* Gradient */
-$gradient_main:linear-gradient(to right, $brand_color_pink,$brand_color_purple);
+/* GRADIENT */
+$gradient_main:linear-gradient(to left, $brand_color_pink,$brand_color_purple);
+$gradient_yellow_circle :linear-gradient(to right, #FFEF5E, #F7936F );
+$gradient_logo : linear-gradient(to right,#E56F8C, #7476ED, #161490 );
+$gradient_btn_purple :linear-gradient(to right,#57007B,#6675F7);
+
+/* Gradient Icons */
+$gradient_icon_black:linear-gradient(to right,#29272E,#27272E);
+$gradient_icon_blue:linear-gradient(to right,#509CF5,#68DBF2);
+$gradient_icon_pink:linear-gradient(to right,#FF3D9A,#FF92AE);
+$gradient_icon_green:linear-gradient(to right,#24E795,#67E9F1);
+$gradient_icon_yellow:linear-gradient(to right,#F7936F,#FFEF5E);
+$gradient_icon_purple:linear-gradient(to right,#57007B,#F76680);
 
 /* Buttons */
 $btn_color_purple : $brand_color_purple;
@@ -52,6 +63,7 @@ $border_radius: 10px;
 
 nav {
     border: 1px solid black;
+    border-radius: $border_radius;
     font-family: $font-title;
     font-size: 10em;
     color: $gradient_main;
