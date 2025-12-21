@@ -1,0 +1,88 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+
+/* Size buttons */
+$size_button_arrows: width 45px, height 45px;
+$size_button_social : width 34px, height 34px;
+
+/* size decoration */
+$size_gradient_line : width 69px, height 5px;
+
+/*Border radius button */
+$border_radius_default: 10px;
+$border_radius_cards: 30px;
+$border_radius_light: 5px;
+
+/* Buttons */
+$btn_color_purple : colors.$gradient_btn_purple;
+$btn_color_blue : #3D63EA;
+
+/* Button card sun */
+.button_card_sun {
+    border-radius : $border_radius_light;
+    background-color: colors.$gradient_yellow_circle;
+}
+
+.button_contact {
+    border-radius : $border_radius_light;
+    background: $btn_color_purple;
+    color : colors.$bg_color_cards;
+    padding : 14px 25px;
+    font-family: Inter;
+    font-size: fonts.$text_size_btn_lg;
+    font-weight : 600;
+    margin: 10px;
+    width : 124px;
+    height: 42px;
+    border: none;
+    text-decoration: none;
+}
+
+.button_started {
+    background-color: #3D63EA;
+    border-radius: 5px;
+    margin : 19px 30px;
+    font-size: fonts.$text_size_btn_lg;
+    font-weight : 600;
+    color : colors.$bg_color_cards;
+    padding : 10px;
+    width: 175px;
+    height: 52px;
+    border: none;
+    text-decoration: none;
+    .button_started:hover {
+        cursor:pointer;
+    }
+}
+
+
+
+
+/* Button nav */
+
+a {
+    text-decoration: none;
+    color : colors.$text_color_mid_grey;
+    padding : 10px;
+    font-weight: 500;
+    font-size : fonts.$text_size_h6;
+}
+
+nav {
+    padding: 10px 0px;
+}
+
+.ik_developpers {
+    font-family: fonts.$font-title;
+    font-weight:400;
+    font-size: 24px;
+}
+
+.logo_ik {
+    display: flex;
+    justify-content: flex-start;
+}
+
+body {
+    font-family: fonts.$font-stack;
+}

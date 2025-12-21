@@ -1,0 +1,27 @@
+@use "../abstract/colors";
+
+/* CARDS */
+/* CARDS - Page */
+
+
+
+/* CARDS - Page */
+
+
+
+/* CARDS - Page Our Design and Development Approach*/
+
+.card_design_dev {
+    background-color: colors.$bg_color_cards;
+    border : 1px solid colors.$bg_color_light_purple;
+}
+
+
+
+
+/* CARDS - Page */
+.card_grey_sun {
+    background-color: colors.$gradient_card_sun;
+    border-radius : 20px;
+
+}

@@ -1,21 +1,127 @@
-/* VARIABLES */
-/* Polices */
 /*COLORS*/
 /*Text colors*/
 /*Brand colors*/
 /* Logo colors */
-/*Logo Background Cards */
 /*Background colors*/
 /*Background cards colors*/
-/* GRADIENT */
-/* Gradient Icons */
-/* Buttons */
-nav {
-  border: 1px solid black;
-  border-radius: 10px;
-  font-family: Inspiration, sans-serif;
-  font-size: 10em;
-  color: linear-gradient(to left, #F76680, #57007B);
+/* GRADIENT TEXT */
+/* Gradient Button & visuals */
+/* Gradient Icons CARDS */
+/* Font types */
+/* Font Weight */
+/* Text Size */
+h1 {
+  color: #1A202C;
 }
+
+.h_light {
+  font-weight: 300;
+}
+
+.h_bold {
+  font-weight: 800;
+}
+
+em {
+  font-style: normal;
+}
+
+.text_gradient_purple {
+  background: linear-gradient(to bottom, #DE4396, rgba(13, 28, 159, 0.3568627451));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Size buttons */
+/* size decoration */
+/*Border radius button */
+/* Buttons */
+/* Button card sun */
+.button_card_sun {
+  border-radius: 5px;
+  background-color: linear-gradient(to right, #FFEF5E, #F7936F);
+}
+
+.button_contact {
+  border-radius: 5px;
+  background: linear-gradient(to right, #57007B, #6675F7);
+  color: #FAFAFA;
+  padding: 14px 25px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px;
+  width: 124px;
+  height: 42px;
+  border: none;
+  text-decoration: none;
+}
+
+.button_started {
+  background-color: #3D63EA;
+  border-radius: 5px;
+  margin: 19px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FAFAFA;
+  padding: 10px;
+  width: 175px;
+  height: 52px;
+  border: none;
+  text-decoration: none;
+}
+.button_started .button_started:hover {
+  cursor: pointer;
+}
+
+/* Button nav */
+a {
+  text-decoration: none;
+  color: #4A5568;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+nav {
+  padding: 10px 0px;
+}
+
+.ik_developpers {
+  font-family: Inspiration, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.logo_ik {
+  display: flex;
+  justify-content: flex-start;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+/* CARDS */
+/* CARDS - Page */
+/* CARDS - Page */
+/* CARDS - Page Our Design and Development Approach*/
+.card_design_dev {
+  background-color: #FAFAFA;
+  border: 1px solid #E7DAED;
+}
+
+/* CARDS - Page */
+.card_grey_sun {
+  background-color: linear-gradient(to right, #F1F1F5, #E4ECF7);
+  border-radius: 20px;
+}
+
+a {
+  font-family: Inter, sans-serif;
+  color: linear-gradient(to right, #57007B, #6675F7);
+}
+
+/* essai */
 
 /*# sourceMappingURL=style.css.map */

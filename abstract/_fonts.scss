@@ -1,0 +1,44 @@
+@use "colors.scss";
+
+/* Font types */
+$font-stack: Inter, sans-serif;
+$font-title: Inspiration, sans-serif;
+
+
+/* Font Weight */
+$h_light : 300;
+$h_bold : 800;
+
+/* Text Size */
+$text_size_h1 : 45px;
+$text_size_h2 : 35px;
+$text_size_h3 : 28px;
+$text_size_h4 : 25px;
+$text_size_h6 : 16px; 
+$text_size_para_1:18px;
+$text_size_para_default:14px;
+$text_size_footer: 14px;
+$text_size_btn_lg : 14px;
+
+
+h1 { 
+    color : colors.$text_color_dark_grey;
+}
+
+.h_light {
+    font-weight : $h_light;
+}
+
+.h_bold {
+    font-weight : $h_bold;
+}
+
+em {
+    font-style: normal;
+}
+
+.text_gradient_purple {
+    background: colors.$gradient_main_pink;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
