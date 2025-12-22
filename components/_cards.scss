@@ -1,6 +1,10 @@
 @use "../abstract/colors";
 
-/* CARDS */
+/* CARDS - Page 2 - Services */
+
+.card_services:hover {
+    border : 1px solid colors.$gradient_main_pink;
+}
 /* CARDS - Page */
 
 
@@ -9,7 +13,7 @@
 
 
 
-/* CARDS - Page Our Design and Development Approach*/
+/* CARDS - Page 8 - Our Design and Development Approach*/
 
 .card_design_dev {
     background-color: colors.$bg_color_cards;
@@ -19,9 +23,9 @@
 
 
 
-/* CARDS - Page */
+/* CARDS - Page 11 */
 .card_grey_sun {
-    background-color: colors.$gradient_card_sun;
+    display:flex;
+    background: colors.$gradient_card_sun;
     border-radius : 20px;
-
 }

@@ -1,16 +1,14 @@
-@use "colors.scss";
+@use "colors";
 
-/* Font types */
 $font-stack: Inter, sans-serif;
 $font-title: Inspiration, sans-serif;
-
 
 /* Font Weight */
 $h_light : 300;
 $h_bold : 800;
 
 /* Text Size */
-$text_size_h1 : 45px;
+$text_size_h1 : 53px;
 $text_size_h2 : 35px;
 $text_size_h3 : 28px;
 $text_size_h4 : 25px;
@@ -21,24 +19,47 @@ $text_size_footer: 14px;
 $text_size_btn_lg : 14px;
 
 
+/*Header text*/
+
 h1 { 
     color : colors.$text_color_dark_grey;
+    size : $text_size_h1;
 }
 
+
+/* Font-weight for headers, accross all pages */
 .h_light {
-    font-weight : $h_light;
+    font-weight : 300;
 }
 
 .h_bold {
-    font-weight : $h_bold;
+    font-weight : 800;
 }
 
+/* class to remove italic from em*/
 em {
     font-style: normal;
 }
 
+/* color gradient for font header hero page h1 */
 .text_gradient_purple {
     background: colors.$gradient_main_pink;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.text_gradient_purple2 {
+    background: colors.$gradient_btn_purple;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*paragraphs & others*/
+p {
+    color: colors.$text_color_mid_grey;
+}
+
+h1,h2,h3,h4 {
+    color: colors.$text_color_dark_grey
 }

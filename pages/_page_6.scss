@@ -1,0 +1,30 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+@use "../components/buttons";
+@use "../components/cards";
+@use "../components/others";
+
+.card_case {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid colors.$bg_color_light_purple;
+    border-radius:30px;
+}
+
+.case_blue {
+    background-color: colors.$bg_color_card_blue ;
+}
+
+.case_green {
+    background-color: colors.$bg_color_card_green;
+}
+
+.case_pink {
+    background-color: colors.$bg_color_pink;
+}
+
+.case_grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}

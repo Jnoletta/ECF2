@@ -1,0 +1,35 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+@use "../components/buttons";
+@use "../components/cards";
+@use "../components/others";
+
+
+.customer_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width : 945px;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    opacity: 60%;
+}
+
+.imran {
+    opacity:100%
+}
+
+.quote {
+    width : 13px;
+}
+
+.para_quote_grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    width : 700px;
+}

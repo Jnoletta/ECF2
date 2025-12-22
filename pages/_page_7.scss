@@ -1,0 +1,19 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+@use "../components/buttons";
+@use "../components/cards";
+@use "../components/others";
+
+
+/* Page 7 - Présentation 2 - Way of building greatsoftware */
+
+/*paragraphes with gradient, italic and left border */
+.grad_it_leftb {
+    font-style: italic;
+    color : colors.$gradient_btn_purple;
+    border-left : 3px solid;
+    background: colors.$gradient_btn_purple;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

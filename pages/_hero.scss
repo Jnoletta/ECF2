@@ -1,0 +1,24 @@
+@use "../abstract/fonts";
+@use "../components/buttons";
+@use "../components/cards";
+@use "../components/others";
+
+
+/* Layout */
+.hero_text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width : 400px
+}
+
+.hero_grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 300px;
+}
+

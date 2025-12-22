@@ -1,0 +1,45 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+@use "../components/buttons";
+@use "../components/cards";
+@use "../components/others";
+
+
+
+/* Header */
+header {
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.10);
+}
+
+nav {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ik_developpers {
+    font-family: fonts.$font-title;
+    font-weight:400;
+    font-size: 24px;
+}
+
+.logo_ik_padding {
+    padding:0px 10px;
+}
+
+.logo_ik {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+    display:flex;
+    flex-direction: row;;
+}
+
+.button_right {
+    display: flex;
+    justify-content: flex-end;
+}
+/* Nav Bar Layout */

@@ -1,0 +1,15 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+@use "../components/buttons";
+@use "../components/cards";
+@use "../components/others";
+
+.page_3_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.arrow_button_3 {
+    display: flex;
+    justify-content: flex-end;
+}

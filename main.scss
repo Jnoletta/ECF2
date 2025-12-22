@@ -2,29 +2,22 @@
 @use "abstract/colors";
 @use "components/buttons";
 @use "components/cards";
+@use "components/others";
+@use "pages/header";
+@use "pages/hero";
+@use "pages/footer";
+@use "pages/page_2";
+@use "pages/page_3";
+@use "pages/page_4";
+@use "pages/page_5";
+@use "pages/page_6";
+@use "pages/page_7";
+@use "pages/page_8";
+@use "pages/page_9";
+@use "pages/page_10";
+@use "pages/page_11";
 
-a {
-    font-family: fonts.$font-stack;
-    color: buttons.$btn_color_purple;
+* {
+    margin:0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* essai */
-
 
