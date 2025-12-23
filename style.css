@@ -7,6 +7,13 @@
 /* GRADIENT TEXT */
 /* Gradient Button & visuals */
 /* Gradient Icons CARDS */
+/*text gradient pink */
+.grad_pink {
+  background: linear-gradient(to left, #F76680, #57007B);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Font Weight */
 /* Text Size */
 /*Header text*/
@@ -51,13 +58,33 @@ h1, h2, h3, h4 {
   color: #1A202C;
 }
 
+.size_18px {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.size_14px {
+  font-size: 14px;
+}
+
 /* Size buttons */
 /*Border radius button */
 /* Buttons */
 /* Button card sun */
 .button_card_sun {
   border-radius: 5px;
-  background-color: linear-gradient(to right, #FFEF5E, #F7936F);
+  background: linear-gradient(to left, #FFEF5E, #F7936F);
+  color: #FAFAFA;
+  padding: 14px 25px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px;
+  width: 252px;
+  height: 57px;
+  border: none;
+  text-decoration: none;
 }
 
 /* Button hero page */
@@ -112,6 +139,13 @@ body {
   font-family: Inter, sans-serif;
 }
 
+a:hover {
+  text-decoration: underline;
+  background: linear-gradient(to right, #57007B, #6675F7);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* CARDS - Page 2 - Services */
 .card_services:hover {
   border: 1px solid linear-gradient(to bottom, #DE4396, rgba(13, 28, 159, 0.3568627451));
@@ -128,8 +162,14 @@ body {
 /* CARDS - Page 11 */
 .card_grey_sun {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
   background: linear-gradient(to right, #F1F1F5, #E4ECF7);
   border-radius: 20px;
+  padding: 50px;
+  width: 1230px;
+  margin-bottom: 100px;
 }
 
 /* Layout header with top line */
@@ -138,6 +178,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+}
+
+.hero_text {
+  gap: 50px;
+}
+
+.page_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 16px;
+}
+
+.page_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 /* Header */
@@ -196,44 +258,135 @@ nav {
   padding: 100px 300px;
 }
 
+/* grid footer */
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+/*div column footer */
+.columnn_footer {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  justify-items: start;
+  width: 300px;
+}
+
+.column_link {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.column_contact {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.row_social {
+  display: flex;
+  align-items: end;
+}
+
+/* copyright footer */
+.copyright {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #CBD5E0;
+  padding: 20px;
+}
+
+/* card style */
 .card_services {
   width: 333px;
-  height: 287px;
+  height: 250px;
   display: flex;
   flex-direction: column;
+  justify-items: center;
   background-color: #FAFBFB;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   margin: 50px;
+  padding: 25px;
+  gap: 15px;
 }
 
+/* services icon size */
 .services_icons {
   width: 58px;
   height: 58px;
 }
 
+/* services background and layout */
 .services_background {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #F9F9FF;
   border: 1px solid #E7DAED;
+  gap: 25px;
+  padding: 50px;
+}
+
+/* services cards row */
+.services_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .page_3_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  padding: 100px;
 }
 
 .arrow_button_3 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.text_page_3 {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 15px;
+  width: 400px;
+  padding: 100px;
+  padding-left: 200px;
+}
+
+.footer_page_3 {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 15px;
+  width: 400px;
+  padding: 100px;
+  padding-left: 200px;
 }
 
 .grey_background {
-  padding: 50px;
+  padding: 50px 0px;
   background-color: #F7F7FA;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   border: 1px solid #E7DAED;
 }
 
@@ -250,6 +403,7 @@ nav {
   align-items: center;
   width: 100px;
   opacity: 60%;
+  gap: 10px;
 }
 
 .imran {
@@ -260,18 +414,101 @@ nav {
   width: 13px;
 }
 
+.quote_down {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-items: flex-end;
+}
+
 .para_quote_grid {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   width: 700px;
 }
 
+.para_quote_center {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page_5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.size_16px {
+  font-size: 16px;
+}
+
+.size_18px {
+  font-size: 18px;
+}
+
+.size_12px {
+  font-size: 12px;
+}
+
+.size_14px {
+  font-size: 14px;
+}
+
+.page_6 {
+  background-color: #F7F7FA;
+  border-top: 1px solid #E7DAED;
+  border-bottom: 1px solid #E7DAED;
+  padding-bottom: 50px;
+}
+
 .card_case {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   border: 1px solid #E7DAED;
   border-radius: 30px;
+  width: 600px;
+}
+
+.case_grid {
+  display: grid;
+  grid-template-rows: 2fr 2fr 2fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.case_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: -150px;
+  padding-bottom: 25px;
+}
+
+/* case background colors */
+.case_study {
+  width: 600px;
+  height: 215px;
+  padding: 100px;
+  gap: 30px;
+  border-radius: 0px 15px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #E7DAED;
+}
+
+.study_link {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .case_blue {
@@ -286,9 +523,8 @@ nav {
   background-color: #FFF4F4;
 }
 
-.case_grid {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
+.size_28px {
+  font-size: 28px;
 }
 
 /* Page 7 - Présentation 2 - Way of building greatsoftware */
@@ -300,6 +536,246 @@ nav {
   background: linear-gradient(to right, #57007B, #6675F7);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.grad_purple {
+  color: linear-gradient(to right, #57007B, #6675F7);
+  background: linear-gradient(to right, #57007B, #6675F7);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  color: #718096;
+  font-size: 13px;
+}
+
+.name {
+  color: #1A202C;
+  font-size: 16px;
+}
+
+.text_team {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 75px;
+  width: 500;
+}
+
+.building {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 400px;
+  width: 80%;
+  gap: 50px;
+  padding: 50px;
+}
+
+.team_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.page_7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* icon size, border and padding */
+.icon_shape {
+  height: 35px;
+  width: 35px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* cards background and border*/
+.card_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FAFAFA;
+  border: 1px solid #E7DAED;
+  height: 150px;
+  width: 550px;
+  padding: 50px;
+  gap: 20px;
+}
+
+/*page section background & border */
+.page_8 {
+  display: flex;
+  background-color: #F7F7FA;
+  border-top: 1px solid #E7DAED;
+  border-bottom: 1px solid #E7DAED;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+/* grid columns for cards */
+.icon_cards_grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr;
+  gap: 30px;
+}
+
+/* icon bg colors */
+.icon_black {
+  background: linear-gradient(to right, #29272E, #27272E);
+}
+
+.icon_blue {
+  background: linear-gradient(to right, #509CF5, #68DBF2);
+}
+
+.icon_green {
+  background: linear-gradient(to right, #24E795, #67E9F1);
+}
+
+.icon_pink {
+  background: linear-gradient(to right, #FF3D9A, #FF92AE);
+}
+
+.icon_yellow {
+  background: linear-gradient(to right, #F7936F, #FFEF5E);
+}
+
+.icon_purple {
+  background: linear-gradient(to right, #57007B, #F76680);
+}
+
+/* text color UX First based on gradient */
+.text_icon {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/*gap for text cards */
+.text_page8 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* general structure */
+.page_9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #E7DAED;
+  padding-bottom: 100px;
+}
+
+.nav_bar_page9 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 30px;
+}
+
+.partner_row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 100px;
+  padding: 30px;
+}
+
+.page_10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_page10 {
+  border: 1px solid #E7DAED;
+  border-radius: 9px;
+  width: 250px;
+  padding: 25px 50px;
+}
+
+.grid_page10 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+
+.grid_trophy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  gap: 25px;
+}
+
+/* page 11 layout */
+.page_11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*blog cards */
+.link_arrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.blog_card {
+  display: flex;
+  flex-direction: column;
+  width: 254px;
+  height: 315px;
+  gap: 20px;
+}
+
+.blog_row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 100px 0px;
+}
+
+/* card sun */
+.sun {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 * {

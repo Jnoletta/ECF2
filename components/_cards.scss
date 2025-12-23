@@ -26,6 +26,12 @@
 /* CARDS - Page 11 */
 .card_grey_sun {
     display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
     background: colors.$gradient_card_sun;
     border-radius : 20px;
+    padding: 50px;
+    width: 1230px;
+    margin-bottom: 100px;
 }

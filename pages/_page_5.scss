@@ -18,6 +18,7 @@
     align-items: center;
     width: 100px;
     opacity: 60%;
+    gap : 10px;
 }
 
 .imran {
@@ -28,8 +29,47 @@
     width : 13px;
 }
 
+.quote_down {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-items: flex-end;
+}
+
 .para_quote_grid {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     width : 700px;
+}
+
+.para_quote_center {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap : 30px;
+    padding-bottom:50px;
+}
+
+.size_16px {
+    font-size: 16px;
+}
+
+.size_18px {
+    font-size : 18px;
+}
+
+.size_12px {
+    font-size: 12px;
+}
+
+.size_14px {
+    font-size:14px;
 }

@@ -4,16 +4,63 @@
 @use "../components/cards";
 @use "../components/others";
 
+.page_6 {
+    background-color: colors.$bg_color_light_grey;
+    border-top: 1px solid colors.$bg_color_light_purple;
+    border-bottom: 1px solid colors.$bg_color_light_purple;
+    padding-bottom:50px;
+}
+
 .card_case {
     display:flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     border: 1px solid colors.$bg_color_light_purple;
     border-radius:30px;
+    width:600px;
+}
+
+.case_grid {
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr ;
+    gap: 20px;
+    padding:20px;
+}
+
+.case_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: -150px;
+    padding-bottom: 25px;
+
+}
+
+
+/* case background colors */
+.case_study {
+    width: 600px;
+    height: 215px;
+    padding: 100px;
+    gap: 30px;
+    border-radius :  0px 15px 15px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid colors.$bg_color_light_purple;
+}
+
+.study_link {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 600;
+
 }
 
 .case_blue {
-    background-color: colors.$bg_color_card_blue ;
+    background-color: colors.$bg_color_card_blue; 
 }
 
 .case_green {
@@ -24,7 +71,7 @@
     background-color: colors.$bg_color_pink;
 }
 
-.case_grid {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+.size_28px {
+    font-size: 28px;
 }
+

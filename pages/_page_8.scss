@@ -1,0 +1,92 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+@use "../components/buttons";
+@use "../components/cards";
+@use "../components/others";
+
+
+
+/* icon size, border and padding */
+.icon_shape {
+    height: 35px;
+    width : 35px;
+    border-radius: 10px;
+    padding: 10px;
+    margin : 20px;
+}
+
+/* cards background and border*/
+.card_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: colors.$bg_color_cards;
+    border: 1px solid colors.$bg_color_light_purple;
+    height : 150px;
+    width:550px;
+    padding:50px;
+    gap: 20px;
+}
+
+/*page section background & border */
+.page_8 {
+    display: flex;
+    background-color: colors.$bg_color_light_grey;
+    border-top: 1px solid colors.$bg_color_light_purple;
+    border-bottom: 1px solid colors.$bg_color_light_purple;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom:100px;
+}
+
+/* grid columns for cards */
+.icon_cards_grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr;
+    gap:30px;
+}
+
+/* icon bg colors */
+.icon_black {
+    background: colors.$gradient_icon_black;
+}
+
+.icon_blue {
+    background: colors.$gradient_icon_blue ;
+}
+
+.icon_green {
+    background: colors.$gradient_icon_green;
+}
+
+.icon_pink {
+    background: colors.$gradient_icon_pink;
+}
+.icon_yellow {
+    background: colors.$gradient_icon_yellow;
+}
+.icon_purple {
+    background: colors.$gradient_icon_purple;
+}
+
+/* text color UX First based on gradient */
+
+.text_icon {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/*gap for text cards */
+.text_page8 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -17,3 +17,58 @@
     -webkit-text-fill-color: transparent;
 }
 
+.grad_purple {
+    color : colors.$gradient_btn_purple;
+    background: colors.$gradient_btn_purple;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title {
+    color : colors.$text_color_light_grey;
+    font-size: 13px;
+}
+
+.name {
+    color : colors.$text_color_dark_grey;
+    font-size: 16px;
+}
+
+.text_team {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 75px;
+    width : 500;
+}
+
+
+.building {
+    display:grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 400px;
+    width : 80%;
+    gap: 50px;
+    padding : 50px;
+}
+
+.team_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding : 50px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.page_7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -6,9 +6,9 @@
 
 
 .grey_background {
-    padding : 50px;
+    padding : 50px 0px;
     background-color: colors.$bg_color_light_grey;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border : 1px solid colors.$bg_color_light_purple
 }

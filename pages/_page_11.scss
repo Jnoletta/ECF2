@@ -1,0 +1,50 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+@use "../components/buttons";
+@use "../components/cards";
+@use "../components/others";
+
+
+/* page 11 layout */
+.page_11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*blog cards */
+.link_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.blog_card {
+    display:flex;
+    flex-direction: column;
+    width: 254px;
+    height: 315px;
+    gap:20px;
+}
+
+.blog_row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    padding : 100px 0px;
+}
+
+
+/* card sun */
+
+.sun {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

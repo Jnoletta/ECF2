@@ -27,7 +27,7 @@ $bg_color_card_blue:#F1F2FF;
 /* GRADIENT TEXT */
 $gradient_main:linear-gradient(to left, $brand_color_pink,$brand_color_purple);
 $gradient_main_pink : linear-gradient(to bottom, #DE4396, #0d1c9f5b);
-$gradient_yellow_circle :linear-gradient(to right, #FFEF5E, #F7936F );
+$gradient_yellow_circle :linear-gradient(to left, #FFEF5E, #F7936F );
 
 /* Gradient Button & visuals */
 $gradient_logo : linear-gradient(to right,#E56F8C, #7476ED, #161490 );
@@ -41,3 +41,11 @@ $gradient_icon_pink:linear-gradient(to right,#FF3D9A,#FF92AE);
 $gradient_icon_green:linear-gradient(to right,#24E795,#67E9F1);
 $gradient_icon_yellow:linear-gradient(to right,#F7936F,#FFEF5E);
 $gradient_icon_purple:linear-gradient(to right,#57007B,#F76680);
+
+
+/*text gradient pink */
+.grad_pink {
+background:  $gradient_main;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}

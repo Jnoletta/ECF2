@@ -1,0 +1,38 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+@use "../components/buttons";
+@use "../components/cards";
+@use "../components/others";
+
+
+
+/* general structure */
+.page_9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid colors.$bg_color_light_purple;
+    padding-bottom: 100px;
+}
+
+.nav_bar_page9 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap : 50px;
+    padding: 30px;
+}
+
+.partner_row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    gap : 100px;
+    padding: 30px;
+}
+

@@ -19,7 +19,17 @@ $btn_color_blue : #3D63EA;
 /* Button card sun */
 .button_card_sun {
     border-radius : $border_radius_light;
-    background-color: colors.$gradient_yellow_circle;
+    background: colors.$gradient_yellow_circle;
+    color : colors.$bg_color_cards;
+    padding : 14px 25px;
+    font-family: Inter;
+    font-size: fonts.$text_size_btn_lg;
+    font-weight : 600;
+    margin: 10px;
+    width : 252px;
+    height: 57px;
+    border: none;
+    text-decoration: none;
 }
 
 
@@ -79,4 +89,11 @@ a {
 
 body {
     font-family: fonts.$font-stack;
+}
+
+a:hover {
+    text-decoration: underline;
+    background: colors.$gradient_btn_purple;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

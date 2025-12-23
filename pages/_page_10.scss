@@ -1,0 +1,37 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+@use "../components/buttons";
+@use "../components/cards";
+@use "../components/others";
+
+
+.page_10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_page10 {
+    border: 1px solid colors.$bg_color_light_purple;
+    border-radius: 9px;
+    width: 250px;
+    padding: 25px 50px;
+}
+
+.grid_page10 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
+
+.grid_trophy {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 25px;
+}
+
+
+

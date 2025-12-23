@@ -63,3 +63,13 @@ p {
 h1,h2,h3,h4 {
     color: colors.$text_color_dark_grey
 }
+
+.size_18px {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.size_14px {
+    font-size: 14px;
+}
