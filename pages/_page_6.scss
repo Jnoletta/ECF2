@@ -34,14 +34,13 @@
     align-items: center;
     gap: -150px;
     padding-bottom: 25px;
-
 }
 
 
 /* case background colors */
 .case_study {
     width: 600px;
-    height: 215px;
+    height: 214px;
     padding: 100px;
     gap: 30px;
     border-radius :  0px 15px 15px 0px;
@@ -49,14 +48,16 @@
     flex-direction: column;
     justify-content: center;
     border: 1px solid colors.$bg_color_light_purple;
+    position:relative;
+    left:-10px;
+    z-index: 0;
+    border-radius: 0px 30px 30px 0px;;
 }
 
 .study_link {
     display: flex;
     justify-content: flex-end;
-    font-size: 16px;
     font-weight: 600;
-
 }
 
 .case_blue {
@@ -75,3 +76,11 @@
     font-size: 28px;
 }
 
+.img_case_zindex {
+    z-index: 1;
+}
+
+.read_position {
+    position:relative;
+    right:220px;
+}

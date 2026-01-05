@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    line-height: 16px;
+    line-height: 30px;
 }
 
 .page_title {
@@ -27,4 +27,38 @@
     gap: 35px;
     padding-top:75px;
     padding-bottom:75px;
+}
+
+.deco_arrow {
+    position:absolute;
+    top: 3500px;
+    left:200px;
+}
+
+.deco_arrow_down {
+    position:absolute;
+    top: 3500px;
+    z-index: 5;
+    right: 300px;
+}
+
+.deco_hero {
+    position: absolute;
+    top: 795px;
+    left: 700px;
+    z-index: -1;
+}
+
+.deco_lead1 {
+    position : relative;
+    top:-40px;
+    left: 275px;
+    z-index: -1;
+}
+
+.deco_lead2{
+    position : relative;
+    z-index: -1;
+    top: 50px;
+    left: 950px;
 }

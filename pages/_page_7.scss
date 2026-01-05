@@ -10,16 +10,15 @@
 /*paragraphes with gradient, italic and left border */
 .grad_it_leftb {
     font-style: italic;
-    color : colors.$gradient_btn_purple;
-    border-left : 3px solid;
-    background: colors.$gradient_btn_purple;
+    color : colors.$gradient_main;
+    background: colors.$gradient_main;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .grad_purple {
-    color : colors.$gradient_btn_purple;
-    background: colors.$gradient_btn_purple;
+    color : colors.$gradient_main;
+    background: colors.$gradient_main;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -47,8 +46,8 @@
     display:grid;
     grid-template-columns: 2fr;
     grid-template-rows: 400px;
-    width : 80%;
-    gap: 50px;
+    width : 65%;
+
     padding : 50px;
 }
 
@@ -58,11 +57,12 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    padding : 50px;
+
 }
 
 .reverse {
     flex-direction: row-reverse;
+    padding-top : 90px;
 }
 
 .page_7 {
@@ -71,4 +71,64 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.lateral_bar {
+    display:flex;
+    flex-direction: row;
+    width: 450px;
+    gap:20px;
+}
+
+ /* Position of decorations for 1st image */
+.yellow_circle_position1 {
+    position:relative;
+    right: 600px;
+    bottom: 230px;
+    z-index: -1;
+}
+
+.small_purple_circle_position1 {
+    position:relative;
+    width:30px;
+    right: 375px;
+    top: 235px;
+    z-index: -1;
+}
+
+
+ /* Position of decorations for 2nd image */
+.yellow_circle_position2 {
+    position:relative;
+    top: 230px;
+    left: 150px;
+    z-index: -1;
+
+
+}
+
+.small_purple_circle_position2 {
+    position:relative;
+    width:30px;
+    left : 650px;
+    bottom: 230px;
+    z-index: -1;
+}
+
+
+ /* Position of decorations for 3rd image */
+.yellow_circle_position3 {
+    position:relative;
+    z-index: -1;
+    width:30px;
+    top:230px;
+    right: 585px
+
+}
+.small_purple_circle_position3 {
+    position:relative;
+    width:30px;
+    bottom: 235px;
+    right: 300px;
+    z-index: -1;
 }

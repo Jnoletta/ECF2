@@ -25,11 +25,11 @@ $btn_color_blue : #3D63EA;
     font-family: Inter;
     font-size: fonts.$text_size_btn_lg;
     font-weight : 600;
-    margin: 10px;
+    margin: 20px;
     width : 252px;
     height: 57px;
-    border: none;
     text-decoration: none;
+    border : 1px solid white;
 }
 
 
@@ -71,6 +71,10 @@ $btn_color_blue : #3D63EA;
     padding:17px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.111);
     z-index: 0;
+}
+
+.img_social {
+    z-index:1;
 }
 
 

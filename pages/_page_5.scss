@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 150px;
     opacity: 60%;
     gap : 10px;
 }
@@ -33,20 +33,23 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-items: flex-end;
+    justify-content: flex-end;
+    position:relative;
+    top:80px;
+    left: 70px;
 }
 
 .para_quote_grid {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     width : 700px;
+    justify-content: space-between;
 }
 
 .para_quote_center {
     display: flex;
-    justify-items: center;
+    line-height: 25px;
     flex-direction: column;
-    align-items: center;
 }
 
 .page_5 {

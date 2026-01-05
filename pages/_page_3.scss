@@ -13,8 +13,11 @@
 
 .arrow_button_3 {
     display: flex;
-    justify-content: center;
     align-items: flex-end;
+    justify-content: flex-end;
+    position:relative;
+    left : 600px;
+    top: 150px;
 }
 
 .text_page_3 {
@@ -23,7 +26,7 @@
     flex-direction: column;
     align-items: baseline;
     gap:15px;
-    width: 400px;
+    width: 500px;
     padding:100px;
     padding-left: 200px;
 }
@@ -37,4 +40,21 @@
     width: 400px;
     padding:100px;
     padding-left: 200px;
+}
+
+.row_arrow {
+    display:flex;
+    align-items: center;
+}
+
+.page_3_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.img_page3 {
+    position:relative;
+    top: 100px;
 }

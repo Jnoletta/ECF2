@@ -26,6 +26,11 @@ h1 {
     size : $text_size_h1;
 }
 
+h2 {
+    font-size: $text_size_h2;
+    line-height: 55px;
+}
+
 
 /* Font-weight for headers, accross all pages */
 .h_light {
@@ -72,4 +77,16 @@ h1,h2,h3,h4 {
 
 .size_14px {
     font-size: 14px;
+}
+
+.size_20px {
+    font-size : 20px;
+}
+
+.line_height {
+    line-height: 36px ;
+}
+
+.line_height30 {
+    line-height:30px;
 }
