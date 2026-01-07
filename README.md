@@ -7,7 +7,10 @@ Projet d'intégration de maquette depuis un modèle Figma
 ### Points Clés
 - Utilisation de SASS afin de définir des variables (couleurs, fonts)
 - Création d'une hiérarchie dossier SCSS inspirée du système 7-1.
-  - Dossier abstract pour Colors et Fonts
-  - Dossier Components pour Buttons, Cards et Others
+  - Dossier abstract pour *_colors.scss* et *_fonts.scss*
+  - Dossier Components pour *_buttons.scss*, *_cards.scss* et *_others.scss*
   - Dossier Images pour les différents éléments visuels.
   - Dossier Pages pour les éléments uniques à chaque page
+- Sections/pages HTML terminées à 90% dans dossier *pages_finished.html*
+- Voir *index.html* pour HTML terminé
+
